@@ -1,0 +1,81 @@
+.accessories {
+    margin-bottom: 100px;
+  }
+  
+  .accessories__title {
+    margin-bottom: 30px;
+  }
+  
+  .accessorise__head-text {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 36px;
+    text-transform: uppercase;
+    background: linear-gradient(180deg, #bc10d8 0%, rgba(80, 0, 250, 0.93) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 30px;
+  }
+  
+  .accessories-items-grid__cards {
+    display: grid;
+    grid-template: 1fr / repeat(4, 1fr);
+    border: 1px solid transparent;
+    border-image: linear-gradient(180deg, #bc10d8 0%, #5000faed 100%) 1;
+  }
+  
+  .accessories__item-card {
+    border: 0.5px solid transparent;
+    border-image: linear-gradient(180deg, #bc10d8 0%, #5000faed 100%) 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;  /* прижимает элемент к низу */
+    padding: 20px;
+  }
+  
+  .item-card__image-wrapper {
+    margin-bottom: 10px;
+  }
+  
+  .item-card__image {
+    width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    overflow: hidden;
+  }
+  
+  .item-card__name {
+    margin-bottom: 10px;
+  }
+  
+  .item-card__name-link {
+    font-size: 24px;
+    color: var(--black);
+  }
+  
+  .item-card__text {
+    margin-top: auto;
+    margin-bottom: 42px;
+  }
+  
+  .item-card__price {
+    font-size: 24px;
+    color: var(--black);
+    margin-bottom: 20px;
+  }
+  
+  .item-card__btn-link {
+    text-align: center;
+    font-weight: 700;
+    background: linear-gradient(180deg, #bc10d8 0%, rgba(80, 0, 250, 0.93) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    border: 0.5px solid transparent;
+    border-image: linear-gradient(180deg, #bc10d8 0%, #5000faed 100%) 1;
+    margin: 6px;
+  
+    /* margin-top: auto;*/ /* прижимает элемент к низу втрой вариант*/
+  }
+  

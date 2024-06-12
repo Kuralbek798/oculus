@@ -1,0 +1,25 @@
+/* @font-face {
+    font-family: 'Helvetica', sans-serif;
+    src: url(../fonts/helvetica.woff2);
+    font-style: normal;
+    font-weight: 400;
+  }
+  
+  @font-face {
+    font-family: 'Helvetica-Bold', sans-serif;
+    src: url(../fonts/helvetica-bold.woff2);
+    font-style: normal;
+    font-weight: 700;
+  } */
+  
+  :root {
+    --font-family: "Helvetica", sans-serif;
+    --second-family: "Inter", sans-serif;
+  }
+  :root {
+      --grey: #5c5c5e;
+      --white: #f6f4f5;
+      --light-grey: #cacad6;
+      --black: #070707;
+  }
+  

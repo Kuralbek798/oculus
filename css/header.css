@@ -1,0 +1,41 @@
+.header {
+    border-bottom: 1px solid var(--light-grey);
+  }
+  
+  .nav {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    height: 80px;
+  }
+  
+  .menu {
+    display: flex;
+    gap: 0 20px;
+  }
+  
+  .logo{
+    text-align: center;
+  }
+  
+  .basket{
+    text-align:end;
+    position: relative;
+    display: block;
+  }
+  
+  .basket__span {
+    padding: 2px;
+    background: #111111;
+    color: #ffffff;
+    min-width: 11px;
+    max-height: 15px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #000000;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 0px;
+    right: -3px;
+  }

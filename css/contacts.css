@@ -1,0 +1,57 @@
+.contacts {
+  margin-bottom: 100px;
+}
+
+.contacts__title {
+  font-size: 24px;
+  color: var(--black);
+  margin-bottom: 9px;
+}
+
+.contacts__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+}
+.contacts__form {
+  flex-basis: 600px;
+  position: relative;
+}
+.contacts__form-inputp-email {
+  width: 100%;
+  height: 51px;
+  border: transparent;
+  border-bottom: 1px solid var(--light-grey);
+  margin-bottom: 14px;
+  padding:0 55px 0 2px;
+}
+
+.contacts__form-inputp-email::placeholder {
+  font-size: 13px;
+  color: var(--light-grey);
+}
+
+.contacts__form-inputp-email:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px #f3f3f3;
+}
+
+.contacts__form-go-link {
+  width: 50px;
+  height: 50px;
+  font-weight: 700;
+  color: var(--grey);
+  background-color: var(--light-grey);
+  border-radius: 50%;
+  position: absolute;
+  right: 0px;
+  top: -2px;
+}
+
+.contacts__text{
+  font-size: 13px;
+color: var(--grey);
+}
+.contacts__email {
+  margin-right: 18px;
+}

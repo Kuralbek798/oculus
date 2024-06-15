@@ -21,10 +21,10 @@
   .accessories-items-grid__cards {
     display: grid;
     grid-template: 1fr / repeat(4, 1fr);
-    border: 1px solid transparent;
-    border-image: linear-gradient(180deg, #bc10d8 0%, #5000faed 100%) 1;
+    /* border: 1px solid transparent;
+    border-image: linear-gradient(180deg, #bc10d8 0%, #5000faed 100%) 1; */
   }
-  
+ 
   .accessories__item-card {
     border: 0.5px solid transparent;
     border-image: linear-gradient(180deg, #bc10d8 0%, #5000faed 100%) 1;
@@ -34,7 +34,11 @@
     padding: 20px;
   }
   
-  .item-card__image-wrapper {
+  .no-right-border{
+    border-right: transparent;
+  }
+
+  .item-card__image-link {
     margin-bottom: 10px;
   }
   

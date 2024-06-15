@@ -1,0 +1,28 @@
+.footer {
+  border-top: 1px solid var(--light-grey);
+  border-bottom: 2px solid var(--light-grey);
+  margin-bottom: 44px; 
+}
+
+.footer-nav-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  height: 102px;
+}
+
+.footer-nav-grid__menu-list {
+  display: flex;
+  gap: 0 20px;
+  text-align: center;
+}
+
+.footer-nav-grid__logo-link {
+  text-align: center;
+}
+
+.footer-nav-grid__media-list {
+  display: flex;
+justify-content: flex-end;
+  gap: 0 20px;
+}

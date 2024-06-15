@@ -4,7 +4,7 @@
   margin-bottom: 44px; 
 }
 
-.footer-nav-grid {
+/* .footer-nav-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   align-items: center;
@@ -19,7 +19,7 @@
 
 .footer-nav-grid__logo-link {
   text-align: center;
-}
+} */
 
 .footer-nav-grid__media-list {
   display: flex;
